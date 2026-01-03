@@ -98,7 +98,7 @@ button {
     background: gray;
   }
 }
-.m-standard {
+.model-y {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -108,10 +108,11 @@ button {
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
 .slider {
   margin-top: 42px;
   width: 100%;
-  height: 100%;
+  height: 100%;       
   align-items: center;
 }
 .slide {
@@ -173,33 +174,40 @@ img {
 
 .order-container {
   position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
   gap: 20px;
   top: 40%;
-  left: 50%;
+  left: 30%;
 }
 .order {
   background-color: #3d6ae1;
   color: white;
+  font-size: 14px;
   text-wrap: nowrap;
   text-align: center;
   border: none;
-  box-sizing: border-box;
+  width: 70px;
+  box-sizing: content-box;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  padding: 20px 70px;
+  padding: 13px 70px;
+  margin-left: 0;
   border-radius: 2px;
   cursor: grab;
 }
 .compare {
   background-color: white;
   color: #000;
+  width: 80px;
+  font-size: 14px;
   text-wrap: nowrap;
   text-align: center;
-  padding: 20px 70px;
+  padding: 13px 70px;
   border: none;
-  box-sizing: border-box;
-  border-radius: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  box-sizing: content-box;
+  border-radius: 5px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
   cursor: grab;
 }
 .btn-slide {
